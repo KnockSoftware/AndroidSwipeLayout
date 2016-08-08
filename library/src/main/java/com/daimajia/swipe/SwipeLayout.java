@@ -1639,7 +1639,7 @@ public class SwipeLayout extends FrameLayout {
                 mDragDistance = currentBottomView.getMeasuredWidth() - dp2px(getCurrentOffset());
             } else {
                 mDragDistance = currentBottomView.getMeasuredHeight() - dp2px(getCurrentOffset());
-            }
+            } 
         }
 
         if (mShowMode == ShowMode.PullOut) {
