@@ -1648,4 +1648,4 @@ public class SwipeLayout extends FrameLayout {
             layoutLayDown();
         }
     }
-}
+} 
