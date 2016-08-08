@@ -1647,5 +1647,7 @@ public class SwipeLayout extends FrameLayout {
         } else if (mShowMode == ShowMode.LayDown) {
             layoutLayDown();
         }
+
+        safeBottomView();
     }
 } 
