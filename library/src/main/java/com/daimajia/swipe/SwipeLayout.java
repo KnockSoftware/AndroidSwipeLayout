@@ -1324,7 +1324,7 @@ public class SwipeLayout extends FrameLayout {
         if (currentDragEdge == null || surfaceView == null) {
             return;
         }
-        float willOpenPercent = (isCloseBeforeDragged ? mWillOpenPercentAfterClose : mWillOpenPercentAfterOpen););
+        float willOpenPercent = (isCloseBeforeDragged ? mWillOpenPercentAfterClose : mWillOpenPercentAfterOpen);
         if (currentDragEdge == DragEdge.Left) {
             if (xvel > minVelocity) open();
             else if (xvel < -minVelocity) close();
@@ -1639,7 +1639,7 @@ public class SwipeLayout extends FrameLayout {
                 mDragDistance = currentBottomView.getMeasuredWidth() - dp2px(getCurrentOffset());
             } else {
                 mDragDistance = currentBottomView.getMeasuredHeight() - dp2px(getCurrentOffset());
-            } 
+            }
         }
 
         if (mShowMode == ShowMode.PullOut) {
